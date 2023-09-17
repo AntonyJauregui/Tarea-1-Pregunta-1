@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.cuadrado {
+    width: 250 px;
+    height: 250 px;
+    background: blue;
+    border: 1 px solid #000;
+}
