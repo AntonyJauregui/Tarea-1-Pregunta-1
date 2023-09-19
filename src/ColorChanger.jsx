@@ -1,6 +1,14 @@
-export const ColorChanger = () => {
-    return (
-            <div className="cuadrado">
-                <img src="" alt="" width={100} height={100} border={1} />
-            </div>
-    )}
+export const ColorChanger  = ({color}) =>{
+
+    const style = {
+        width: "100px",
+        height: "100px",
+        background: color,
+    }
+    return(
+        <div>
+            <h1>Colores</h1>
+              <div style={{width: "100px", height: "100px", background: color}}></div>
+        </div>
+    )
+}

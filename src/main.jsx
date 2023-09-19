@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Principal } from './Principal'
 import { ColorChanger } from './ColorChanger'
-import './style.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <ColorChanger />
+  <Principal /> 
   </React.StrictMode>,
 )
